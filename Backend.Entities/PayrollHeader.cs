@@ -8,5 +8,9 @@ namespace Backend.Entities
         public DateTime DatePayroll { get; set; }
         public DateTime CreatedAt { get; set; }
         public DateTime UpdatedAt { get; set; }
+
+
+        public int IdWorkers { get; set; }
+        public Workers Workers { get; set; }
     }
 }
