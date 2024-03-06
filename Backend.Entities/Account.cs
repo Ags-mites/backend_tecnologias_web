@@ -9,9 +9,10 @@ namespace Backend.Entities
         public string? Description { get; set; }
         public DateTime CreatedAt { get; set; }
         public DateTime UpdatedAt { get; set; } 
+        
 
-        public int IdAccountType { get; set; }
-        public AccountType AccountType { get; set; }
+        public int AccountTypeId { get; set; }
+        public required AccountType AccountType { get; set; }
         
     }
 }
