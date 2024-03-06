@@ -11,7 +11,7 @@ namespace Backend.Entities
 
         public int IdVoucherType { get; set; }
         public int IdMovement { get; set; }
-        public VoucherType VoucherTypes { get; set; }
-        public Movement Movements { get; set; }
+        public required VoucherType VoucherTypes { get; set; }
+        public required Movement Movements { get; set; }
     }
 }

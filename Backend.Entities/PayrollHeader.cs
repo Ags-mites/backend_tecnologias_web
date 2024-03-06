@@ -11,6 +11,6 @@ namespace Backend.Entities
 
 
         public int IdWorkers { get; set; }
-        public Workers Workers { get; set; }
+        public required Workers Workers { get; set; }
     }
 }
