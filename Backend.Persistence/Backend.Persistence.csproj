@@ -2,6 +2,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Backend.Entities\Backend.Entities.csproj" />
+    <ProjectReference Include="..\Backend.DTOs\Backend.DTOs.csproj" />
   </ItemGroup>
 
   <ItemGroup>

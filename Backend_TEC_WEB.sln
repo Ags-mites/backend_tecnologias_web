@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Backend.Persistence", "Back
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Backend.WebAPI", "Backend.WebAPI\Backend.WebAPI.csproj", "{4945E398-476A-4388-8652-667D4DB186DE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Backend.DTOs", "Backend.DTOs\Backend.DTOs.csproj", "{A516C624-331A-4F14-A5EF-5B2F8CCD307D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,9 @@ Global
 		{4945E398-476A-4388-8652-667D4DB186DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4945E398-476A-4388-8652-667D4DB186DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4945E398-476A-4388-8652-667D4DB186DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A516C624-331A-4F14-A5EF-5B2F8CCD307D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A516C624-331A-4F14-A5EF-5B2F8CCD307D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A516C624-331A-4F14-A5EF-5B2F8CCD307D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A516C624-331A-4F14-A5EF-5B2F8CCD307D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

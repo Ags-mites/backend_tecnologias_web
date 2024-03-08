@@ -4,7 +4,9 @@ using System.Text.Json.Serialization;
 
 var builder = WebApplication.CreateBuilder(args);
 
+
 // Add services to the container.
+builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 builder.Services.AddContextSqlServer(builder.Configuration, "ConnectionSQLServer");
 builder.Services.AddRepositories();
 builder.Services.AddControllers(); 

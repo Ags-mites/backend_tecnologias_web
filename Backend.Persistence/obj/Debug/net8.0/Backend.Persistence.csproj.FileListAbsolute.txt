@@ -16,3 +16,5 @@ C:\Users\Agustin Mites\source\repos\Backend_TEC_WEB\Backend.Persistence\obj\Debu
 C:\Users\Agustin Mites\source\repos\Backend_TEC_WEB\Backend.Persistence\obj\Debug\net8.0\Backend.Persistence.sourcelink.json
 C:\Users\Agustin Mites\source\repos\Backend_TEC_WEB\Backend.Persistence\bin\Debug\net8.0\Backend.Persistence.runtimeconfig.json
 C:\Users\Agustin Mites\source\repos\Backend_TEC_WEB\Backend.Persistence\obj\Debug\net8.0\Backend.Persistence.genruntimeconfig.cache
+C:\Users\Agustin Mites\source\repos\Backend_TEC_WEB\Backend.Persistence\bin\Debug\net8.0\Backend.DTOs.dll
+C:\Users\Agustin Mites\source\repos\Backend_TEC_WEB\Backend.Persistence\bin\Debug\net8.0\Backend.DTOs.pdb

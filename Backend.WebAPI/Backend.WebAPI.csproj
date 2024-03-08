@@ -8,6 +8,8 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="12.0.1" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="8.0.1" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
   </ItemGroup>
@@ -15,6 +17,7 @@
   <ItemGroup>
     <ProjectReference Include="..\Backend.Entities\Backend.Entities.csproj" />
     <ProjectReference Include="..\Backend.Persistence\Backend.Persistence.csproj" />
+    <ProjectReference Include="..\Backend.DTOs\Backend.DTOs.csproj" />
   </ItemGroup>
 
 </Project>
